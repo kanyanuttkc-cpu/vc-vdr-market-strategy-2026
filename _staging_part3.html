@@ -1,0 +1,80 @@
+            <!-- 2. Verifiers -->
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-bl-lg">Network Effect</div>
+                <h3 class="text-xl font-bold text-slate-800 mb-1 flex items-center mt-2">
+                    <span class="bg-green-500 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm mr-3 flex-shrink-0">2</span>
+                    ฝ่งผู้ตรวจสอบเอกสาร (Verifiers)
+                </h3>
+                <p class="text-sm text-green-600 font-semibold mb-5 pl-10">กลุ่มขยายฐานเพื่อดึงดูดผู้ใช้งานเข้าสู่ระบบ</p>
+
+                <div class="space-y-4 text-sm text-slate-700 pl-10">
+                    <div class="bg-slate-50 p-3 rounded-lg">
+                        <span class="font-semibold text-slate-900 block mb-1">🎯 Target Group (TH):</span>
+                        ฝ่ายบุคคล (HR), สถาบันการเงินที่ต้องทำ Credit Scoring/KYC, แพลตฟอร์ม Onboarding
+                    </div>
+                    <div>
+                        <span class="font-semibold text-red-600 block mb-1">⚠️ Deep-Dive Pain Point:</span>
+                        <p class="leading-relaxed">VDR ในไทยกระจัดกระจาย (Fragmentation) ฝ่งคนตรวจไม่อยากเขียนโค้ดเพื่อไปต่อ API กับ VDR หลายๆ ที่เพื่อตรวจเช็กสถานะการ Revoke (เพิกถอน) ต้องการโซลูชันเดียวที่ฟันธงได้เลย</p>
+                    </div>
+                    <div class="bg-green-50/70 p-4 rounded-xl border border-green-100 mt-4">
+                        <span class="font-bold text-green-800 block mb-2 text-base">💡 SaaS Opportunity: "1-Click Verification Portal"</span>
+                        <p class="mb-3"><strong>แนวทางโปรดกส์:</strong> สร้าง Registry Aggregator รวมทุก VDR ไว้ที่เดียว เมื่อ Verifier สแกน VC ระบบจะวิ่งไปตรวจ Cryptographic Proof, DID, และ Revocation List ทันที พร้อมออก Audit Report</p>
+                        <p class="text-emerald-700 font-medium"><strong>💸 Monetization:</strong> Monthly/Annual SaaS Subscription (Seat-based) หรือ Pay-per-Verification API call</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. VDR Operators -->
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-gray-100 text-gray-800 text-xs font-bold px-3 py-1 rounded-bl-lg">High Barrier to Entry</div>
+                <h3 class="text-xl font-bold text-slate-800 mb-1 flex items-center mt-2">
+                    <span class="bg-gray-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm mr-3 flex-shrink-0">3</span>
+                    ผู้ให้บริการโครงสร้างข้อมูล (VDR)
+                </h3>
+                <p class="text-sm text-gray-600 font-semibold mb-5 pl-10">กลุ่มผู้สร้างรากฐานระดับอุตสาหกรรม</p>
+
+                <div class="space-y-4 text-sm text-slate-700 pl-10">
+                    <div class="bg-slate-50 p-3 rounded-lg">
+                        <span class="font-semibold text-slate-900 block mb-1">🎯 Target Group (TH):</span>
+                        สมาคมวิชาชีพ, Consortium ของกลุ่มธุรกิจ, หรืออุตสาหกรรมเฉพาะทางที่ต้องการสร้าง Trust Network
+                    </div>
+                    <div>
+                        <span class="font-semibold text-red-600 block mb-1">⚠️ Deep-Dive Pain Point:</span>
+                        <p class="leading-relaxed">การตั้ง Node VDR ให้มี Uptime 99.99% ตลอดเวลา และระบบการจัดการ Revocation List (สถานะเอกสารถูกยกเลิก) แบบ Low Latency มีต้นทุน Infrastructure และ Operation ที่สูงและซับซ้อนมาก</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 mt-4">
+                        <span class="font-bold text-gray-800 block mb-2 text-base">💡 SaaS Opportunity: "Managed VDR / Revocation Node"</span>
+                        <p class="mb-3"><strong>แนวทางโปรดกส์:</strong> ระบบคล้าย AWS แต่เจาะจงเฉพาะ SSI โดยให้บริการเช่าพื้นที่ VDR Node ที่ปลอดภัยสูง จัดการระบบ Revocation ทันใจ (เช่น Cryptographic Accumulators)</p>
+                        <p class="text-emerald-700 font-medium"><strong>💸 Monetization:</strong> Compute & Storage Resource Subscription + SLA Contracts ระดับองค์กร</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Holders & Wallet Providers -->
+            <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-bl-lg">B2B2C Interface</div>
+                <h3 class="text-xl font-bold text-slate-800 mb-1 flex items-center mt-2">
+                    <span class="bg-amber-500 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm mr-3 flex-shrink-0">4</span>
+                    กระเป๋าเอกสารผู้ใช้งาน (Wallet Providers)
+                </h3>
+                <p class="text-sm text-amber-600 font-semibold mb-5 pl-10">จุดเชื่อมต่อประสบการณ์ประชาชนทั่วไป</p>
+
+                <div class="space-y-4 text-sm text-slate-700 pl-10">
+                    <div class="bg-slate-50 p-3 rounded-lg">
+                        <span class="font-semibold text-slate-900 block mb-1">🎯 Target Group (TH):</span>
+                        นิติบุคคลโครงการอสังหาฑฯ, องค์กรที่มีสมาชิกลูกค้า (Membership)
+                    </div>
+                    <div>
+                        <span class="font-semibold text-red-600 block mb-1">⚠️ Deep-Dive Pain Point:</span>
+                        <p class="leading-relaxed">การบังคับประชาชนโหลดแอพพลิเคชัน (App) ใหม่เพื่อเก็บ VC เป็นอุปสรรคสำคัญ (Friction) ในขณะที่ธุรกิจก็ไม่อยากลงทุนพัฒนาแอพพลิเคชัน Wallet ที่ปลอดภัยสูงขึ้นมาเอง</p>
+                    </div>
+                    <div class="bg-amber-50/70 p-4 rounded-xl border border-amber-100 mt-4">
+                        <span class="font-bold text-amber-800 block mb-2 text-base">💡 SaaS Opportunity: "White-Label Wallet SDK / LINE Mini App"</span>
+                        <p class="mb-3"><strong>แนวทางโปรดกส์:</strong> พัฒนา Wallet เป็น SDK ฝังเข้าแอพพลิเคชันเดิมของลูกค้า หรือใช้แพลตฟอร์มยอดนิยมอย่างสร้าง LINE Mini App ให้ผู้ใช้เปิดรับและเก็บ VC ได้ทันที</p>
+                        <p class="text-emerald-700 font-medium"><strong>💸 Monetization:</strong> B2B Licensing & Setup Fee (องค์กรเป็นผู้จ่าย) + ค่า MAU (Monthly Active Users)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

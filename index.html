@@ -49,5 +49,101 @@
         <h1 class="text-3xl md:text-4xl font-bold text-slate-900">Thailand B2B VC / VDR Market Strategy 2026</h1>
         <p class="text-slate-500 text-sm md:text-base">โอกาสธุรกิจ B2B บนโครงสร้างพื้นฐาน Verifiable Credential ของประเทศไทย ภายใต้กรอบ ETDA Digital ID Framework Phase 2 (2025–2027)</p>
     </div>
-</div></div></main></div></div></body></html>
-<!-- NOTE_TO_SELF: full content restoration in progress -->
+
+    <!-- Hero Metrics -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="glass-card rounded-2xl p-6 metric-card border-t-4 border-t-blue-500">
+            <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Global Digital Identity Market</div>
+            <div class="text-3xl font-bold text-slate-800">$47.0B</div>
+            <div class="text-sm text-green-600 mt-2 font-medium flex items-center">
+                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                2025 ฐาน → $135.1B ภายในปี 2033 (CAGR 13.2%)
+            </div>
+            <div class="text-xs text-slate-400 mt-2">Source: Grand View Research (2026)</div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 metric-card border-t-4 border-t-purple-500">
+            <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">TH Digital Transformation</div>
+            <div class="text-3xl font-bold text-slate-800">$10.9B</div>
+            <div class="text-sm text-green-600 mt-2 font-medium flex items-center">
+                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                Market Size 2026 (8.75% CAGR)
+            </div>
+            <div class="text-xs text-slate-400 mt-2">Source: Mordor Intelligence (2026)</div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 metric-card border-t-4 border-t-green-500">
+            <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Thailand Catalyst (24 มิ.ย. 2026)</div>
+            <div class="text-lg font-bold text-slate-800">Digital Trust Thailand 2026</div>
+            <div class="text-sm text-slate-600 mt-2">ETDA จัดประชุมนานาชาติ "ดิจิทัลไทย มาตรฐานโลก" ประกาศ Digital ID 2.0 และ Digital Trust Ecosystem ผู้เข้าร่วมกว่า 300 คนจากหน่วยงานไทย/ต่างประเทศ</div>
+            <div class="text-xs text-slate-400 mt-2">Source: <a class="text-blue-600 underline" href="https://www.etda.or.th/th/pr-news/DIGITAL-TRUST-THAILAND-2026.aspx" target="_blank" rel="noopener">ETDA</a></div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 metric-card border-t-4 border-t-amber-500">
+            <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Global Enterprise Pricing</div>
+            <div class="text-3xl font-bold text-slate-800">$3 - $6</div>
+            <div class="text-sm text-slate-600 mt-2 font-medium">Per User / Month (CIAM)</div>
+            <div class="text-xs text-slate-400 mt-2">Source: Ping Identity (Vendr 2026)</div>
+        </div>
+    </div>
+
+    <!-- Section 1: The Trust Triangle -->
+    <div class="glass-card rounded-2xl p-8 space-y-6">
+        <div class="flex items-center space-x-3 border-b border-slate-200 pb-4">
+            <div class="bg-blue-100 p-2 rounded-lg text-blue-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <h2 class="text-2xl font-bold text-slate-800">1. สถาปัตยกรรมแห่งความน่าเชื่อถือ (SSI Trust Triangle)</h2>
+        </div>
+
+        <p class="text-slate-600 leading-relaxed text-sm md:text-base">
+            ในยุค ETDA Phase 2 (2025-2027) การสร้างธุรกิจ SaaS ต้องวิเคราะห์ให้ขาดว่าเรากำลังทำระบบเพื่อแก้ปัญหาให้ฝ่งใดในวัฑจักรการไหลของข้อมูล (Data Flow) ตามมาตรฐาน W3C Verifiable Credentials
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 overflow-x-auto">
+            <div class="mermaid text-sm">
+graph TD
+    subgraph RegistryLayer ["Layer 3: Verifiable Data Registry (VDR)"]
+        direction TB
+        Registry[(Blockchain / Trust Registry<br>e.g. NDID, ShareRing, ThaiID)]
+        VDR_SaaS["💡 SaaS Opp: Managed VDR Node"] -.-> Registry
+    end
+
+    subgraph IssuerLayer ["Layer 1: Issuers"]
+        Issuer((ผู้ออกเอกสาร<br>Issuer))
+        Issuer_SaaS["💡 SaaS Opp: VC Issuance API"] -.-> Issuer
+    end
+
+    subgraph VerifierLayer ["Layer 2: Verifiers"]
+        Verifier((ผู้ตรวจสอบ<br>Verifier))
+        Verifier_SaaS["💡 SaaS Opp: 1-Click Verifier Portal"] -.-> Verifier
+    end
+
+    subgraph HolderLayer ["Layer 4: Holders & Wallets"]
+        Holder((ผู้ถือครองเอกสาร<br>Holder))
+        Wallet["📱 Wallet Provider<br>(e.g. National VC Wallet)"] -.-> Holder
+        Wallet_SaaS["💡 SaaS Opp: White-label Wallet SDK"] -.-> Wallet
+    end
+
+    Issuer -->|1. ลงทะเบียน DID & Public Key| Registry
+    Issuer -->|2. ออกเอกสารเข้ารหัส Signed VC| Holder
+    Holder -->|3. ยื่นเอกสาร Verifiable Presentation| Verifier
+    Verifier -->|4. ตรวจสอบ Cryptographic Proof & สถานะเพิกถอน| Registry
+
+    classDef blue fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af;
+    classDef purple fill:#f3e8ff,stroke:#a855f7,stroke-width:2px,color:#6b21a8;
+    classDef green fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534;
+    classDef gray fill:#f1f5f9,stroke:#94a3b8,stroke-width:2px,color:#475569;
+    classDef opp fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,stroke-dasharray: 5 5,color:#b45309;
+
+    class IssuerLayer,Issuer blue;
+    class HolderLayer,Holder purple;
+    class VerifierLayer,Verifier green;
+    class RegistryLayer,Registry gray;
+    class Issuer_SaaS,Verifier_SaaS,VDR_SaaS,Wallet_SaaS opp;
+            </div>
+        </div>
+        <div class="text-xs text-slate-500 mt-4 bg-slate-100 p-4 rounded-lg">
+            <strong>ความเข้าใจผิดที่พบบ่อย:</strong> "Holder" คือตัวบุคคล/องค์กรเจ้าของข้อมูล (เช่น นักศึกษา) ในขณะที่ "Wallet Provider" (เช่น รัฐวิสาหกิจที่ทำ VC Wallet ของตนเอง) คือผู้สร้างซอฟต์แวร์ให้ Holder ใช้เก็บกุญแจส่วนตัว ธุรกิจ SaaS ไม่จำเป็นต้องทำแอปแข่งกับ Wallet หลักของประเทศ แต่ควรทำระบบหลังบ้านสนับสนุน (Backend/SDK) ให้องค์กรต่างๆ
+        </div>
+    </div>
